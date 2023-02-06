@@ -13,4 +13,4 @@ Final project for Data Mining
   - 将数据集中商家相关信息整理为商家信息表，找出表现最好的商家  
   - 对于该商家进行关联规则挖掘
 
-最终完整报告见 **final project.pdf**
+最终完整报告见 **Final project.pdf**
