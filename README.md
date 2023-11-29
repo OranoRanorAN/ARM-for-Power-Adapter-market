@@ -1,6 +1,26 @@
-# 基于关联规则挖掘的电源适配器市场交易数据分析
-Final project for Data Mining
 
+# Power Adapter Market Analysis based on Association Rule Mining (Python + R)
+Final project for Data Mining
+## Research Framework
+
+- Data Cleaning and Preprocessing
+
+- Consumer Behavior Study: Starting from the entire power adapter market, mining association rules on the dataset to study consumer behavior in the market
+  - Organize product-related information in the dataset into a product information table, and abstract the products based on this information
+  - Conduct association rule mining on the abstracted "product category"
+
+- Competitive Landscape Study: Conduct association rule mining for individual sellers to study the competitive landscape of businesses in the market and the reasons for the success of star businesses
+  - Organize seller-related information in the dataset into a seller information table and identify the top-performing sellers
+  - Conduct association rule mining for this seller
+ 
+ARM algorithm used: `Aprior`
+
+The data analysis languages used in this report are Python (`ARM1.ipynb`) and R (`ARM2.ipynb`).
+
+The complete report can be found in `Final project.pdf`.
+
+
+# 基于关联规则挖掘的电源适配器市场交易数据分析
 ## 研究框架
 
 - 数据清洗与预处理
